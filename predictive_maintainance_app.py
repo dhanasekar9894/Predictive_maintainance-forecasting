@@ -10,7 +10,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-pickle_in = open('C:/Users/chandrasekar/Desktop/P_M_P/New folder/predictive_maintainance.sav','rb')
+pickle_in = open('predictive_maintainance.sav','rb')
 
 regressor = pickle.load(pickle_in)
 pickle_in.close()
