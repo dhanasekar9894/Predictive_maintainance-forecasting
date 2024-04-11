@@ -4,7 +4,7 @@ Created on Thu Apr 11 11:45:11 2024
 
 @author: dhanasekar
 """
-
+import sklearn
 import pandas as pd
 import numpy as np
 import streamlit as st
